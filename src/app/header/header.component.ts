@@ -20,7 +20,7 @@ import {SessionService} from "../session.service";
       <div>
         <a class="nav-link" routerLink="/forum">Forum</a>
         <a class="nav-link" routerLink="/login" *ngIf="!sessionService.isLoggedIn()">Login</a>
-        <a class="nav-link" routerLink="/login" (click)="sessionService.loggedInUser=''" *ngIf="sessionService.isLoggedIn()">Logout({{sessionService.loggedInUser}}</a>
+        <a class="nav-link" routerLink="/login" (click)="sessionService.loggedInUser=''" *ngIf="sessionService.isLoggedIn()">Logout({{sessionService.loggedInUser}})</a>
       </div>
     </header>
   `,
