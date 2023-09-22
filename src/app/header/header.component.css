@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  place-content: center space-between;
+  border-bottom: black 2px solid;
+  padding: 10px
+}
+
+.nav-link {
+  margin-right: 20px;
+}

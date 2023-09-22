@@ -1,0 +1,76 @@
+{
+  "topics": [
+    {
+      "id": 1,
+      "topicTitle": "Discussion A",
+      "postList": [
+        {
+          "postText": "New topic",
+          "author": "John",
+          "postTitle": "Discussion A",
+          "timestamp": "1970-01-01"
+        },
+        {
+          "postText": "Just to follow up...",
+          "author": "John",
+          "postTitle": "re: Discussion A",
+          "timestamp": "1970-01-01"
+        },
+        {
+          "postTitle": "sdfasf",
+          "postText": "thtfhddtfhdft",
+          "author": "grsd",
+          "timestamp": "2023-09-22T14:37:17.948-05:00"
+        },
+        {
+          "postTitle": "qwer",
+          "postText": "qwerqwerqwer",
+          "author": "grsd",
+          "timestamp": "2023-09-22T15:05:38.348-05:00"
+        },
+        {
+          "postTitle": "456346345",
+          "postText": "dfghdgh",
+          "author": "grsd",
+          "timestamp": "2023-09-22T15:20:52.220-05:00"
+        },
+        {
+          "postTitle": "1",
+          "postText": "1",
+          "author": "grsd",
+          "timestamp": "2023-09-22T15:21:14.405-05:00"
+        },
+        {
+          "postTitle": "333",
+          "postText": "333",
+          "author": "grsd",
+          "timestamp": "2023-09-22T15:21:38.326-05:00"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "topicTitle": "Discussion B",
+      "postList": [
+        {
+          "postText": "Let's talk about this",
+          "author": "John",
+          "postTitle": "Start discussion B",
+          "timestamp": "1971-01-01"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "topicTitle": "New topic",
+      "postList": [
+        {
+          "postTitle": "New topic",
+          "postText": "6785678",
+          "author": "grsd",
+          "timestamp": "2023-09-22T15:27:26.813-05:00"
+        }
+      ]
+    }
+  ]
+}
