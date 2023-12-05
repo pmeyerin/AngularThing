@@ -45,7 +45,7 @@ export class PostFormComponent {
     postText: new FormControl(''),
   })
 
-  topicId: Number = -1;
+  topicId: number = -1;
 
   constructor() {
     this.topicId = Number(this.route.snapshot.params['topicId']);

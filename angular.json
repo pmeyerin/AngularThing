@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-thing": {
+    "angularThing": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angularThing:build:production"
+              "buildTarget": "angularThing:build:production"
             },
             "development": {
-              "browserTarget": "angularThing:build:development"
+              "buildTarget": "angularThing:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angularThing:build"
+            "buildTarget": "angularThing:build"
           }
         },
         "test": {
